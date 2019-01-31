@@ -2,7 +2,7 @@
 ------
 
 ### The Duke Dunking Challenge
-![Sarah Perrin](images/screenshot.png?raw=true "Sarah Perrin")
+![Sarah Perrin](images/screenshot1.png?raw=true "Sarah Perrin")
 
 I have expanded on my first 'Hello World' sketch to try to more clearly communicate my ideas about the culture of Duke basketball: though the fanfare may appear to be so intertwined with the game itself, at times it can take away from the fundamentals of the movement of the player or the ball. In this sketch, I made the background more overwhelming by constantly changing the background color of my canvas, emitting the sound of a crowd cheering in the background, and moving various Duke basketball "symbols" quickly across the screen.
 
