@@ -12,7 +12,7 @@ var A;
 var B;
 var x = 100;
 var y = 100;
-var speed = 2
+var speed = 3.5
 var song;
 let c = 0.0;
 let d = 0.0;
@@ -70,19 +70,19 @@ function draw (){
     }
     x += speed;
     if (x > width){
-        y = 0;
+        x = 0;
     }
     for (var i=0; i <50; i++){
-        image (img4, 10, 10+i*40, img4.width/5, img4.height/5);
+        image (img4, 10, y+i*45, img4.width/5, img4.height/5);
         }  
     for (var i=0; i <50; i++){
-        image (img4, 740, 10+i*40, img4.width/5, img4.height/5);
+        image (img4, 740, y+i*45, img4.width/5, img4.height/5);
         }  
     for (var i=0; i <50; i++){
-        image (img5, 10+i*50, 10, img5.width/8, img5.height/8);
+        image (img5, x+i*45, 10, img5.width/8, img5.height/8);
         }  
     for (var i=0; i <50; i++){
-        image (img5, 10+i*50, 540, img5.width/8, img5.height/8);
+        image (img5, x+i*45, 540, img5.width/8, img5.height/8);
         }  
     
    push ();
